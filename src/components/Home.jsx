@@ -12,7 +12,7 @@ const Home = () => {
     <div className="grid grid-rows-3 grid-cols-2 gap-8 text-blue-400">
         <div className="flex gap-2">
         <div className="">
-        <img src="src/assets/settings (2).png" className="w-7"/>
+        <img src="./src/assets/settings.png" className="w-7"/>
         </div> 
         Setting up your first event</div>
         <div className="flex gap-2">
