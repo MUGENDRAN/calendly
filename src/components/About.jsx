@@ -1,3 +1,10 @@
+import apple from "../assets/apple.png"
+import google from "../assets/game.png"
+import twitter from "../assets/twitter.png"
+import facebook from "../assets/facebook (1).png"
+import instagram from "../assets/instagram (1).png"
+import linkedin from "../assets/linkedin.png"
+import youtube from "../assets/youtube.png"
 const About = () => {
     return (
         <div className="grid grid-cols-1 lg:grid-cols-2 lg:gap-25 pt-20 text-center max-w-5xl mx-auto">
@@ -9,15 +16,15 @@ const About = () => {
                 <div>We take the work out of connecting with others so you can accomplish more.</div>
                 <div><input type="text" placeholder="English(US)" className="border w-full h-10 text-center rounded-lg"/></div>
                 <div className="flex gap-1">
-                <div className="bg-black text-white flex px-3 py-1 text-center justify-center items-center rounded-lg gap-1"><img src="src/assets/apple.png" className="w-10 h-10"/><div>Download on the<br/>App Store</div></div>
-                <div className="bg-black text-white flex px-6 py-1 text-center justify-center items-center rounded-lg gap-1"><img src="src/assets/game.png" className="w-10 h-10"/><div>Get it on<br/>Google Play</div></div>
+                <div className="bg-black text-white flex px-3 py-1 text-center justify-center items-center rounded-lg gap-1"><img src={apple} className="w-10 h-10"/><div>Download on the<br/>App Store</div></div>
+                <div className="bg-black text-white flex px-6 py-1 text-center justify-center items-center rounded-lg gap-1"><img src={google} className="w-10 h-10"/><div>Get it on<br/>Google Play</div></div>
                 </div>
                 <div className="flex gap-5 justify-center items-start">
-                <div><img src="src/assets/twitter.png" className="w-10"/></div>
-                <div><img src="src/assets/facebook (1).png" className="w-10"/></div>
-                <div><img src="src/assets/instagram (1).png" className="w-10"/></div>
-                <div><img src="src/assets/linkedin.png" className="w-8"/></div>
-                <div><img src="src/assets/youtube.png" className="w-10"/></div>
+                <div><img src={twitter} className="w-10"/></div>
+                <div><img src={facebook} className="w-10"/></div>
+                <div><img src={instagram} className="w-10"/></div>
+                <div><img src={linkedin} className="w-8"/></div>
+                <div><img src={youtube} className="w-10"/></div>
                 </div>
             </div>
             <div className="grid lg:grid-cols-3 sm:grid-cols-2 grid-cols-1 gap-20">
